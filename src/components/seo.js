@@ -60,7 +60,20 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+            <link
+              rel="stylesheet"
+              href="https://pro.fontawesome.com/releases/v5.6.1/css/light.css"
+              integrity="sha384-QXb14MpvHKJr57ixwhGSXACaU/eGo/NwF/uWE97+C5QPdq8sLQhM1+WKDk6vando"
+              crossorigin="anonymous"
+            />
+            <link
+              rel="stylesheet"
+              href="https://pro.fontawesome.com/releases/v5.6.1/css/fontawesome.css"
+              integrity="sha384-GQK3B9PHv3SNzYUrdlEpL6CFKQlW/Co4va906SViL0F6U16Li47NXtvwWmFnetYk"
+              crossorigin="anonymous"
+            />
+          </Helmet>
         )
       }}
     />
