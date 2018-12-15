@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-google-sheets',
       options: {
-        spreadsheetId: '870125620',
-        worksheetTitle: 'Ice Rink Status',
+        spreadsheetId: '12qYKp4yMUzVEblNUUQ64vbuXQ38aQ3xNhtQwqIxoH_s',
+        worksheetTitle: 'IceRinkStatus',
         credentials: require('./api-credentials.json'),
       },
     },
