@@ -28,6 +28,14 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-source-google-sheets',
+      options: {
+        spreadsheetId: '870125620',
+        worksheetTitle: 'Ice Rink Status',
+        credentials: require('./api-credentials.json'),
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
